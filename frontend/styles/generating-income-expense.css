@@ -1,0 +1,28 @@
+.form-control {
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    margin-bottom: 17px;
+}
+
+.form-control:last-child {
+    margin-bottom: 20px;
+}
+
+.common-title-head {
+    margin-bottom: 40px;
+}
+
+.form-control::placeholder {
+    font-size: 15px;
+    color: #6C757D;
+}
+
+.form-select {
+    margin-bottom: 17px;
+}
+
+select.form-select {
+    font-size: 15px;
+    color: #6C757D;
+    --bs-form-select-bg-img: none;
+}

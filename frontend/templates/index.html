@@ -1,0 +1,29 @@
+<section class="main">
+    <div class="container" id="container-main">
+        <h1 class="common-title-head">Главная</h1>
+        <div class="d-flex align-items-center btn-action">
+            <button id="main-today-button" type="button" class="btn btn-outline-secondary button-date-action active">Сегодня</button>
+            <button id="main-week-button" type="button" class="btn btn-outline-secondary button-date-action">Неделя</button>
+            <button id="main-month-button" type="button" class="btn btn-outline-secondary button-date-action">Месяц</button>
+            <button id="main-year-button" type="button" class="btn btn-outline-secondary button-date-action">Год</button>
+            <button id="main-all-button" type="button" class="btn btn-outline-secondary button-date-action">Все</button>
+            <button  id="main-interval-button" type="button" class="btn btn-outline-secondary button-date-action">Интервал</button>
+            c <input id="dateForm" class="dateForm form-control" type="date" placeholder="Date">
+            по <input id="dateTo" placeholder="Дата" class="dateTo form-control" type="date">
+
+        </div>
+
+        <div class="caves d-flex justify-content-center">
+            <div class="caves-incomes" id="caves-incomes">
+                <div class="caves-title">Доходы</div>
+                <canvas id="my-chart-incomes"> </canvas>
+            </div>
+            <div class="border-my"></div>
+            <div  class="caves-expenses">
+                <div class="caves-title">Расходы</div>
+                <canvas id="my-chart-expenses"> </canvas>
+            </div>
+        </div>
+
+    </div>
+</section>

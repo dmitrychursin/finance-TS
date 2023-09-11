@@ -1,0 +1,84 @@
+<section class="income-and-expenses">
+    <div class="container align-items-center">
+
+        <h1 class="common-title-head">Доходы и расходы</h1>
+
+        <div class="create d-flex">
+            <a href="#/generating-income-expense" type="button" class="btn btn-success">Создать доход</a>
+            <a href="#/generating-income-expense" type="button" class="btn btn-danger">Создать расход</a>
+        </div>
+
+        <div class="d-flex align-items-center btn-action">
+            <button id="main-today-button" type="button" class="btn btn-outline-secondary button-date-action active">Сегодня</button>
+            <button id="main-week-button" type="button" class="btn btn-outline-secondary button-date-action">Неделя</button>
+            <button id="main-month-button" type="button" class="btn btn-outline-secondary button-date-action">Месяц</button>
+            <button id="main-year-button" type="button" class="btn btn-outline-secondary button-date-action">Год</button>
+            <button id="main-all-button" type="button" class="btn btn-outline-secondary button-date-action">Все</button>
+            <button  id="main-interval-button" type="button" class="btn btn-outline-secondary button-date-action">Интервал</button>
+            c <input id="dateForm" class="dateForm form-control" type="date">
+            по <input id="dateTo" class="dateTo form-control" type="date">
+
+        </div>
+
+        <table class="table text-center" id="table">
+            <thead>
+            <tr>
+                <th scope="col" style="width: 150px">№ операции</th>
+                <th scope="col" style="width: 140px">Тип</th>
+                <th scope="col" style="width: 210px">Категория</th>
+                <th scope="col" style="width: 130px">Сумма</th>
+                <th scope="col" style="width: 180px">Дата</th>
+                <th scope="col">Комментарий</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody id="tbody" class="tbody">
+<!--            <tr id="tr" class="tr">-->
+<!--                <th class="number" scope="row">1</th>-->
+<!--                <td class="text-green type">доход</td>-->
+<!--                <td class="category">зарплата</td>-->
+<!--                <td class="amount">500$</td>-->
+<!--                <td class="date">12.09.2022</td>-->
+<!--                <td class="comment"></td>-->
+<!--                <td class="td-union-stroke">-->
+<!--                    <a class="a-union" href="">-->
+<!--                        <img src="/images/union.png" alt="Корзина">-->
+<!--                    </a>-->
+<!--                    <a class="a-stroke" href="#/editing-income-expense">-->
+<!--                        <img src="/images/stroke.png" alt="Карандаш">-->
+<!--                    </a>-->
+<!--                </td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <th class="number" scope="row">2</th>-->
+<!--                <td class="text-red">расход</td>-->
+<!--                <td>жильё</td>-->
+<!--                <td>2 500$</td>-->
+<!--                <td>12.09.2022</td>-->
+<!--                <td></td>-->
+<!--                <td>-->
+<!--                    <a href="">-->
+<!--                        <img src="/images/union.png" alt="Корзина">-->
+<!--                    </a>-->
+<!--                    <a href="#/editing-income-expense">-->
+<!--                        <img src="/images/stroke.png" alt="Карандаш">-->
+<!--                    </a>-->
+<!--                </td>-->
+<!--            </tr>-->
+            </tbody>
+        </table>
+
+
+    </div>
+</section>
+
+<div class="popup" id="popup-income-and-expenses">
+    <div class="popup-content">
+        <div class="popup-text">Вы действительно хотите удалить операцию?</div>
+        <div class="popup-action d-flex">
+            <button id="popup-income-and-expenses-yes" type="button" class="btn btn-success btn-popup" style="--bs-btn-font-size: 14px;">Да, удалить
+            </button>
+            <button id="popup-income-and-expenses-no" type="button" class="btn btn-danger btn-popup" style="--bs-btn-font-size: 14px;">Не удалять</button>
+        </div>
+    </div>
+</div>

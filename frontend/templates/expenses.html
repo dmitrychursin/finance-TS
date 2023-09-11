@@ -1,0 +1,81 @@
+<section class="expenses">
+    <div class="container">
+        <h1 class="common-title-head">Расходы</h1>
+        <div class="row" id="row-expenses-category">
+
+<!--            <div  class="col-4 category" style="width: 352px">-->
+<!--                <h2 class="title-head">Еда</h2>-->
+<!--                <button type="button" class="expenses-edit btn btn-primary">Редактировать</button>-->
+<!--                <button type="button"  class="expenses-delete btn btn-danger">Удалить</button>-->
+<!--            </div>-->
+
+<!--            <div class="col-4 " style="width: 352px">-->
+<!--                <h2 class="title-head">Жильё</h2>-->
+<!--                <button type="button" class="btn btn-primary">Редактировать</button>-->
+<!--                <button type="button" class="btn btn-danger">Удалить</button>-->
+<!--            </div>-->
+
+<!--            <div class="col-4" style="width: 352px">-->
+<!--                <h2 class="title-head">Здоровье</h2>-->
+<!--                <button type="button" class="btn btn-primary">Редактировать</button>-->
+<!--                <button type="button" class="btn btn-danger">Удалить</button>-->
+<!--            </div>-->
+
+<!--            <div class="col-4" style="width: 352px">-->
+<!--                <h2 class="title-head">Кафе</h2>-->
+<!--                <button type="button" class="btn btn-primary">Редактировать</button>-->
+<!--                <button type="button" class="btn btn-danger">Удалить</button>-->
+<!--            </div>-->
+
+<!--            <div class="col-4" style="width: 352px">-->
+<!--                <h2 class="title-head">Авто</h2>-->
+<!--                <button type="button" class="btn btn-primary">Редактировать</button>-->
+<!--                <button type="button" class="btn btn-danger">Удалить</button>-->
+<!--            </div>-->
+
+<!--            <div class="col-4" style="width: 352px">-->
+<!--                <h2 class="title-head">Одежда</h2>-->
+<!--                <button type="button" class="btn btn-primary">Редактировать</button>-->
+<!--                <button type="button" class="btn btn-danger">Удалить</button>-->
+<!--            </div>-->
+
+<!--            <div class="col-4" style="width: 352px">-->
+<!--                <h2 class="title-head">Развлечения</h2>-->
+<!--                <button type="button" class="btn btn-primary">Редактировать</button>-->
+<!--                <button type="button" class="btn btn-danger">Удалить</button>-->
+<!--            </div>-->
+
+<!--            <div class="col-4" style="width: 352px">-->
+<!--                <h2 class="title-head">Счета</h2>-->
+<!--                <button type="button" class="btn btn-primary">Редактировать</button>-->
+<!--                <button type="button" class="btn btn-danger">Удалить</button>-->
+<!--            </div>-->
+
+<!--            <div class="col-4" style="width: 352px">-->
+<!--                <h2 class="title-head">Спорт</h2>-->
+<!--                <button type="button" class="btn btn-primary">Редактировать</button>-->
+<!--                <button type="button" class="btn btn-danger">Удалить</button>-->
+<!--            </div>-->
+
+            <div class="col-4 d-flex align-items-center justify-content-center" style="width: 352px" id="add">
+                <a href="#/creating-expense-category" class="">
+                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.5469 6.08984V9.05664H0.902344V6.08984H14.5469ZM9.32422 0.511719V15.0039H6.13867V0.511719H9.32422Z" fill="#CED4DA"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<div class="popup" id="popup-expenses">
+    <div class="popup-content">
+        <div class="popup-text">Вы действительно хотите удалить категорию? Связанные расходы будут удалены навсегда.</div>
+        <div class="popup-action d-flex">
+            <button id="popup-expenses-yes" type="button" class="btn btn-success btn-popup" style="--bs-btn-font-size: 14px;">Да, удалить</button>
+            <button id="popup-expenses-no" type="button" class="btn btn-danger btn-popup" style="--bs-btn-font-size: 14px;">Не удалять</button>
+        </div>
+    </div>
+</div>

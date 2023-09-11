@@ -1,0 +1,80 @@
+.common-title-head {
+    margin-bottom: 40px;
+}
+
+.create {
+    margin-bottom: 60px;
+}
+
+.btn {
+    margin-right: 15px;
+    font-family: 'Roboto-Medium', sans-serif;
+    color: #6C757D;
+    height: 38px;
+}
+
+.btn.btn-outline-secondary {
+    width: 100px;
+}
+
+.popup-content {
+    height: 161px;
+}
+
+.data {
+    margin-left: 17px;
+    margin-right: 27px;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.457143px;
+    text-decoration-line: underline;
+    color: #6C757D;
+}
+
+.btn-action {
+    margin-bottom: 40px;
+}
+
+.text-green {
+    color: #198754;
+}
+
+.text-red {
+    color: #DC3545;
+}
+
+thead {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 16px;
+    color: #052C65;
+}
+
+tbody {
+    font-size: 16px;
+    color: #000000;
+}
+
+.number {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+td a {
+    text-decoration: none;
+    margin-right: 11px;
+}
+
+.dateForm.form-control {
+    width: 130px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.dateTo.form-control {
+    width:130px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

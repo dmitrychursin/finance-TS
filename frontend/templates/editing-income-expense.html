@@ -1,0 +1,31 @@
+<section class="editing-income-expense">
+    <div class="container" id="container">
+        <h1 class="common-title-head">Редактирование дохода/расхода</h1>
+        <div  id="edit-income-expense" class="col-5" style="width: 495px">
+
+<!--            <input id="select-category-income-expense" value="" type="text" class="form-control" style="height: 47px">-->
+<!--            <input id="select-category" type="text" class="form-control" style="height: 47px">-->
+
+            <select id="select-category-income-expense" class="form-select type" style="height: 47px" aria-label="Default select example">
+                <option selected>Тип...</option>
+                <option value="income">Доход</option>
+                <option value="expense">Расход</option>
+            </select>
+
+            <select  id="select-category" class="form-select" style="height: 47px" aria-label="Default select example">
+<!--                <option selected>Категория...</option>-->
+                <!--                <option value=""></option>-->
+                <!--                <option value=""></option>-->
+            </select>
+
+
+            <input id="input-number" type="number" class="form-control" style="height: 47px">
+            <input id="input-date" type="date"  class="form-control"  style="height: 47px">
+            <input id="input-text" value="" type="text"  class="form-control" placeholder="Комментарий..." style="height: 47px">
+        </div>
+        <div class="create d-flex">
+            <button id="edit-income-expense-save" type="button" class="btn btn-success">Сохранить</button>
+            <button id="edit-income-expense-cancel" type="button" class="btn btn-danger">Отмена</button>
+        </div>
+    </div>
+</section>
